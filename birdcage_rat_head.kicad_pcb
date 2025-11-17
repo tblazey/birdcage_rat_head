@@ -101,13 +101,13 @@
 	(footprint "custom_footprints:pad"
 		(layer "F.Cu")
 		(uuid "0145b51f-4c91-44df-94d1-8c3a0a524b58")
-		(at 64.24 44.31)
+		(at 64.24 44.32)
 		(property "Reference" "REF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "473803eb-f8c9-4f3c-b323-13a7f1928a42")
+			(uuid "c97a46ff-d780-449a-a425-e416b5b88a7c")
 			(effects
 				(font
 					(size 1 1)
@@ -120,7 +120,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c93f270-d4c0-4639-8d77-6e99f626d477")
+			(uuid "f2e48c17-7a15-4d48-ac85-1a314d4cd569")
 			(effects
 				(font
 					(size 1 1)
@@ -133,7 +133,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "635bbdce-b43c-4f15-baae-a304cde106b0")
+			(uuid "68e6b9fc-847a-425d-8a52-8ff2f8c63c50")
 			(effects
 				(font
 					(size 1 1)
@@ -146,7 +146,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d59fc3e1-a01c-4c66-9a7e-00138ca0c02b")
+			(uuid "ea8950b5-3f7d-45a3-b72d-9766f666e3f0")
 			(effects
 				(font
 					(size 1 1)
@@ -577,7 +577,7 @@
 	(footprint "custom_footprints:pad"
 		(layer "F.Cu")
 		(uuid "1f2a2344-4392-4072-8cd2-e613f0f953e5")
-		(at 64.24 91.34)
+		(at 64.23 91.32)
 		(property "Reference" "REF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -1569,7 +1569,7 @@
 	(footprint "custom_footprints:pad"
 		(layer "F.Cu")
 		(uuid "50e7cf2f-0b7f-4475-89e5-d2e36879b7fe")
-		(at 192.67 91.34)
+		(at 192.66 91.32)
 		(property "Reference" "REF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3442,17 +3442,6 @@
 		(attr smd)
 		(fp_rect
 			(start 0 0)
-			(end 7.5 5.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "e93ea7f6-af9b-4623-b024-18f458c199d2")
-		)
-		(fp_rect
-			(start 0 0)
 			(end 12.1 5.1)
 			(stroke
 				(width 0.1)
@@ -3460,10 +3449,21 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "47e92427-755f-4a85-bb31-df53f53151fb")
+			(uuid "ce99ff91-3bfb-4704-9b72-22db6397be7f")
+		)
+		(fp_rect
+			(start 0 0)
+			(end 7.5 5.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1177612a-7ba5-4c74-9800-d8f4b6e1a13a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 6.790656 0)
+			(at 1.23 6.09 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4a27dade-c1cb-4be6-87e4-d6736b646a51")
@@ -3492,7 +3492,7 @@
 			(net 6 "Net-(C1-Pad2)")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b4517c22-3ba5-493f-879a-484fef78edee")
+			(uuid "375af080-6c59-4048-9d5f-7e49c50d330e")
 		)
 		(pad "2" smd roundrect
 			(at 1.55 2.5 90)
@@ -3509,7 +3509,7 @@
 	(footprint "custom_footprints:pad"
 		(layer "F.Cu")
 		(uuid "ac59eb16-fb58-4417-816f-870e80ec8830")
-		(at 192.67 44.31)
+		(at 192.67 44.32)
 		(property "Reference" "REF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -5689,7 +5689,7 @@
 		(uuid "4fb69736-131c-448e-b5b5-c8399c8d04c5")
 	)
 	(gr_rect
-		(start 62.469979 41.308)
+		(start 62.469979 42.57)
 		(end 194.41687 104.598)
 		(stroke
 			(width 0.05)
