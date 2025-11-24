@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "first_print/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../Desktop/birdcage_rat_head_pcb.stl",
