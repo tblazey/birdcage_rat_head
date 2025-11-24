@@ -503,9 +503,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Desktop/birdcage_rat_head.stl",
+      "step": "../../../Desktop/birdcage_rat_head_pcb.stl",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../Desktop/birdcage_rat_head.wrl"
     },
     "page_layout_descr_file": ""
   },
